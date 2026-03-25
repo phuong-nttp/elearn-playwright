@@ -1,0 +1,11 @@
+git init: Khởi tạo repo
+
+git add <file_name>: Thêm file vào staging
+
+git add .: Thêm tất cả các file vào staging
+
+git commit -m "<message>": Lưu lại thay đổi commit file
+Các convention khi commit message: 
+feat: Tính năng mới
+fix: Sửa lỗi 
+chore: Cập nhật nhỏ lẻ
