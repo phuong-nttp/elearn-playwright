@@ -1,0 +1,30 @@
+a, Chạy lệnh git init: khởi tạo repo
+local repository: null
+working directory: null
+staging area: null
+repo: null
+
+b, Tạo file1.txt, file2.txt, oop/file3.txt: 
+local repository: null
+working directory: file1.txt, file2.txt, oop/file3.txt
+staging area: null
+repo: null
+
+
+c, Tạo file .gitignore 2 dòng file1.txt, oop/:
+local repository: null
+working directory: file1.txt, file2.txt, oop/file3.txt, .gitignore
+staging area: 
+repo: null
+
+d, Chạy lệnh git add .
+local repository: null
+working directory: file1.txt, file2.txt, oop/file3.txt, .gitignore
+staging area: file2.txt, .gitignore
+repo: null
+
+e, Chạy lệnh git commit -m "init project": 
+local repository: null
+working directory: file1.txt, file2.txt, oop/file3.txt, .gitignore
+staging area: null
+repo: file2.txt, .gitignore 

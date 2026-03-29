@@ -20,13 +20,13 @@ console.log(person.address.street)
 //cau 3
 const student = {
     name: "John Doe",
-    grade: {
+    grades: {
         math: 9,
         english: 10,
     }
 
 }
-console.log(student["grade"]["math"])
+console.log(student["grades"]["math"])
 
 //cau 4
 const settings = {
@@ -43,6 +43,7 @@ const bike = {
 bike.color = "red"
 console.log(bike.color)
 
+//cau 6
 const employee = {
     name: "John Doe",
     age: 20,
@@ -50,7 +51,7 @@ const employee = {
 delete employee.age
 console.log(employee)
 
-//cau 6
+//cau 7
 const school = {
     classA: ["An", "Bình", "Châu"],
     classB: ["Đào", "Hương", "Giang"]

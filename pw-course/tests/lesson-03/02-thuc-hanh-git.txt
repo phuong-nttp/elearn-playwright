@@ -1,0 +1,53 @@
+a, Tạo file1.txt, file2.txt, file3.txt:
+local repository: file1.txt, file2.txt, file3.txt
+working directory: null
+staging area: null
+repo: null
+
+b, Chạy lệnh git init:
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: null
+repo: null
+
+c, Chạy lệnh git add -m "init project":
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: null
+repo: null
+
+d, Chạy lệnh git add file1.txt:
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: file1.txt
+repo: null
+
+e, Chạy lệnh git commit -m "add file1.txt"
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: null
+repo: file1.txt
+
+f, Chạy lệnh git add .
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: file2.txt, file3.txt
+repo: file1.txt
+
+g, Chạy lệnh git restore --staged file2.txt
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: file3.txt
+repo: file1.txt
+
+h,Chạy lệnh  git commit -m "add all files"
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: 
+repo: file1.txt, file3.txt
+
+i,Chạy lệnh git reset HEAD~1
+local repository: null
+working directory: file1.txt, file2.txt, file3.txt
+staging area: null
+repo: file1.txt

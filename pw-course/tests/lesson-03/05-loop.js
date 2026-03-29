@@ -9,7 +9,7 @@ console.log(tong)
 
 //cau 2
 for (let i = 2; i <= 9; i++) {
-    res = []
+    const res = []
     for (let k = 1; k <= 10; k++) {
         res.push(`${i} x ${k} = ${i * k}`)
 
@@ -20,7 +20,7 @@ for (let i = 2; i <= 9; i++) {
 
 
 //cau 3
-let sole = []
+const sole = []
 for (let i = 1; i <= 99; i++) {
     if (i % 2 !== 0) {
         sole.push(i)
