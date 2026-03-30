@@ -1,0 +1,7 @@
+ git commit --amend: sửa lại commit trước đó
+
+git commit --amend -m "new message": sửa lại commit trước đó với message mới
+
+git restore --staged <file>: bỏ file ra khỏi staging area
+
+git reset HEAD~1: bỏ commit trước đó và đưa về working directory

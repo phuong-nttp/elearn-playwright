@@ -28,7 +28,7 @@ const students = [
 ];
 
 function getTopStudents(students, threshold) {
-    results = []
+    const results = []
     for (let i = 0; i < students.length; i++) {
         if (students[i].score >= threshold) {
             results.push(students[i].name)
@@ -40,7 +40,7 @@ console.log(getTopStudents(students, 8))
 
 //cau 4
 function calculateInterest(principal, rate, years) {
-    total = principal + principal * rate * years / 100
+    const total = principal + principal * rate * years / 100
     return total
 }
 console.log(calculateInterest(1000, 5, 10))
